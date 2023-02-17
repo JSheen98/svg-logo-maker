@@ -47,11 +47,11 @@ function svgPrompt() {
 
         ]).then((data)=> {
             if(data.shape === 'Triangle') {
-                console.log('This is a triangle')
+                fs.writeFile(`${data.shape}.svg`)
             } else if (data.shape === 'Circle') {
-                console.log('This is a circle')
+                fs.writeFile(`${data.shape}.svg`)
             } else {
-                console.log('This is a rectangle')
+                fs.writeFile(`${data.shape}.svg`)
             }
         })
 }
