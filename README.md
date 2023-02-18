@@ -2,7 +2,7 @@
 
 ## ✏️ Description:
 
-
+The goal for this project was to create a simple, yet effective .svg generator for a dev use when trying to create vector graphics for their project. The user can start by opening the command line, then running node on index.js. This will take the user through a set of simple questions, to help them decide the style they want for their svg. They first choose a shape, then the background color, text, and text color. Once this is complete, the code will take the user's input and generate the .svg file within the project. These files can be viewed in the browser to check if the style matches the expectations.
 
 
 ## 📜 License:
@@ -51,10 +51,11 @@ N/A
 
 ## ✍️ Usage
 
+Run 'Node index.js' in the integrated terminal. Answer the inquirer questions and once complete, the .svg file will be generated and added to the project files.
 
 
 ## 📸 Assets
 
-The following video contains a sample walkthrough of this project:
+The following video contains a sample walkthrough of this project's functionality and tests:
 
-
+https://drive.google.com/file/d/1DZz5nhPm49yviaU-SLJZmFeP_a-sRYoA/view
